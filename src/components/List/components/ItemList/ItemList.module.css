@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container button {
+    width: 40px;
+    height: 40px;
+    background: var(--color-pink-3);
+    color: var(--color-white-1);
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+}
+
+.container button:hover {
+    opacity: 0.8;
+}

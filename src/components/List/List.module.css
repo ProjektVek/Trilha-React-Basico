@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 500px;
+    list-style: none;
+}
+
+.container li + li {
+    margin-top: 1rem;
+}
+
+.no_items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
